@@ -69,11 +69,6 @@ static struct hlist_head *all_lists[] = {
 	NULL,
 };
 
-static struct hlist_head *orphan_list[] = {
-	&clk_orphan_list,
-	NULL,
-};
-
 /***    private data structures    ***/
 
 struct clk_core {
